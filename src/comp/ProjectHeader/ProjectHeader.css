@@ -1,0 +1,48 @@
+
+
+
+.ProjectHeader {
+    display: flex;
+    padding: 20px;
+    height: 550px;
+
+    /* align-items: center; */
+
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: #F2F2F7;
+    width: 35%;
+    justify-content: center;
+}
+
+.ProjectHeading {
+    font-family:  "yeseva one";
+    font-size: 4rem;
+}
+
+.ProjectCity {
+    font-weight: 600;
+}
+
+.viewGallery {
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    
+}
+
+
+
+.slider {
+    width: 65%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.carousel-item {
+    height: 550px;
+}
+

@@ -1,0 +1,77 @@
+
+textarea {
+    padding: 5px;
+}
+
+.FormDiv {
+    padding: 100px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    /* border-radius: 25px; */
+    margin: 100px;
+    color: white;
+    text-align: left;
+}
+
+.contactUsNow {
+    color: #198754;
+    font-size: 5rem;
+    font-family: 'yeseva one';
+}
+.FormHeading {
+    position: relative;
+    bottom: 70px;
+    text-decoration: underline;
+}
+
+.checkBoxLabel {
+    position: relative;
+    right: 33%;
+
+}
+
+/* editing form bootstrap */
+
+.form-control {
+    border: 0px;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255,255, 0.8);
+}
+
+@media (max-width: 991px ){
+    .FormDiv {
+        width: 90vw;
+        margin: 4rem;
+
+        padding: 4rem;
+        padding-top: 3rem;
+    }
+    
+    .FormHeading {
+        position: static;
+        padding-bottom: 1rem;
+    }
+
+}
+
+@media (max-width :480px) {
+    .FormDiv {
+        width: 95vw;
+        margin : 10px;
+        padding: 30px;
+        margin-top: 50px;
+        color: white;
+    }
+
+    .checkBoxLabel , .FormHeading{ 
+        position: static;
+    }
+    .contactUsNow {
+        font-size: 3rem;
+    }
+
+}

@@ -1,0 +1,54 @@
+
+
+.logo {
+    height: 8vh;
+}
+
+.navbar-toggler {
+    color: black;
+}
+.navbar-toggler-icon {
+    color: black;
+}
+
+.nav-link {
+    font-family: "inter";
+    font-weight: 700;
+    color: black;
+    position: relative;
+    padding: 0px;
+
+}
+
+.nav-link :hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.2s ease-in;
+
+
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+@media (max-width :991px) {
+    .nav-link {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+}
+

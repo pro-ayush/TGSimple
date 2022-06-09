@@ -1,0 +1,61 @@
+
+
+.Main {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    text-align: left;
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.FaqSection {
+    padding: 50px;
+
+}
+
+.faqh2 {
+    font-family: "yeseva One";
+    text-align: center;
+    color: #198754;
+    transform: rotate(90deg);
+    position: relative;
+    right: 180px;
+    bottom: 30px;
+    font-size: 6rem;
+
+}
+
+.container {
+    height: auto;
+    width: auto;
+}
+
+
+.FaqSection {
+    font-family: 'raleway';
+}
+
+
+@media (max-width : 991px) {
+
+}
+
+
+@media (max-width: 480px) {
+
+    .Main {
+        flex-direction: column;
+    }
+
+    .faqh2 {
+        transform: rotate(0deg);
+        position: static;
+        font-size: 3rem;
+
+    }
+
+    .FaqSection {
+        padding: 0px;
+    }
+}

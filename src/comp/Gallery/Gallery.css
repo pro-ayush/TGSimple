@@ -1,0 +1,36 @@
+
+
+.gridGallery  {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 100%;
+    place-items: center;
+}
+
+.gridGallery img {
+
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  transition: 1s ease-in-out;
+
+}
+
+
+
+
+
+@media screen and (max-width: 991px) {
+  .gridGallery {
+    grid-template-columns: repeat(2,1fr);
+   
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .gridGallery {
+    grid-template-columns: repeat(1,1fr);
+
+  }
+}
