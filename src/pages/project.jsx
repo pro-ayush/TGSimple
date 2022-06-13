@@ -12,12 +12,11 @@ const Project = (props) => {
   return (
     <React.Fragment>
       
-      <ProjectHeader />
+      <ProjectHeader  ProjectName={props.ProjectName} ProjectDescription={props.ProjectDescription} ProjectCity={props.ProjectCity} />
 
 
       <Filter FilterKeyword={FilterKeyword} SetFilterKeyword={setFilterkeyword} />
-      <Gallery FilterKeyword={FilterKeyword} />
-
+      <Gallery FilterKeyword={FilterKeyword} ProjectName={props.ProjectName} />
 
 
     </React.Fragment>

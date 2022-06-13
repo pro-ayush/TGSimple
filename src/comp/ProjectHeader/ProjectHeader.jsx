@@ -8,11 +8,11 @@ const ProjectHeader = (props) => {
     <div className="ProjectHeader">
       <div className="details">
         <h5>Triple Gems 🧑‍💻</h5>
-        <h1 className="ProjectHeading">East Hill Side</h1>
-        <h2 className="ProjectCity">Port Moddy City</h2>
+        <h1 className="ProjectHeading">{props.ProjectName}</h1>
+        <h2 className="ProjectCity">{props.ProjectCity}</h2>
 
-        <p>In this project we did complete renovation of bathroom and kitchen plus roof was replaced by the owners 
-          the site was located in the east hill side of the Port moddy city 
+        <p>
+          {props.ProjectDescription}
         </p>
 
         <button className="viewGallery btn btn-primary">View Gallery</button>
