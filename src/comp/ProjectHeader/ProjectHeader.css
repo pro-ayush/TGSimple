@@ -17,6 +17,7 @@
     background-color: #F2F2F7;
     width: 35%;
     justify-content: center;
+    height: 550px;
 }
 
 .ProjectHeading {
@@ -52,6 +53,9 @@
         }
         .ProjectCity {
             font-size: 1.5rem;
+        }
+        .details {
+            height: auto;
         }
 
 }

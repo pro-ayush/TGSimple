@@ -28,10 +28,15 @@ const Filter = ({ FilterKeyword, SetFilterKeyword }) => {
         "https://images.unsplash.com/photo-1602612996819-3cd306f68b4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
     },
     {
-      FilterName: "Flooring",
+      FilterName: "Deck & Flooring",
       FilterKeyword: "flooring",
       ImageUrl:
         "https://images.unsplash.com/photo-1574197634772-f0de0d41a02e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+    },{
+      FilterName: "Windows & Doors",
+      FilterKeyword: "windows_doors",
+      ImageUrl:
+        "https://images.unsplash.com/photo-1463741408080-b210ee5227dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=885&q=80",
     },
     {
       FilterName: "Lawn",
@@ -78,7 +83,6 @@ const Filter = ({ FilterKeyword, SetFilterKeyword }) => {
       SetFilterKeyword(keyword);
     }
   };
- 
 
   return (
     <div className="FilterDiv">

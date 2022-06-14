@@ -118,6 +118,18 @@
 /* GAllery Logic Ended */
 
 
+@media (max-width : 1280px) {
+    .GridGallery {
+            gap: 30px;
+            padding: 80px;
+    }
+
+    .GridGallery img {
+        width: 350px;
+        height: 350px;
+    }
+}
+
 @media (max-width : 991px) {
     .GridGallery {
         grid-template-columns: repeat(2,1fr);
@@ -129,6 +141,7 @@
     .GridGallery img {
         width: 330px;
         height: 330px;
+
     }
 }
 
@@ -136,7 +149,8 @@
 
 
     .lightboxImage img {
-
+        
+        padding: 20px;
     }
 
 
