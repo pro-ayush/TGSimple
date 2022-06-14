@@ -39,10 +39,59 @@
 .slider {
     width: 65%;
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .carousel-item {
     height: 550px;
 }
 
+@media (max-width : 1280px) {   
+        .ProjectHeading {
+            font-size : 3rem;
+        }
+        .ProjectCity {
+            font-size: 1.5rem;
+        }
+
+}
+
+@media (max-width : 991px) {
+    .ProjectHeader {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .details {
+        width: 100%;
+    }
+}
+
+
+@media (max-width : 480px ) {
+    .ProjectHeader {
+        padding: 5px;
+    }
+
+    .slider {
+        height: 50% ;
+    }
+
+    .carousel-item {
+        height: 50%;
+    }
+
+    .ProjectHeading {
+        font-size: 2.5rem;
+    }
+
+    .ProjectCity {
+        font-size: 1.5rem;
+    }
+
+
+}

@@ -8,6 +8,7 @@ import FAQ from '../comp/FAQ/Faq.jsx'
 import Reviews from '../comp/Reviews/Reviews.jsx'
 import Form from '../comp/Form/Form.jsx'
 
+
 const Home = (props) => {
   return (
     <div>

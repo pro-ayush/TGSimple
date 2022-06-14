@@ -20,7 +20,7 @@ function App() {
   //* This one API Request is responsible for Creating the pages as well as Creating the ProjectCArds on home page 
   useEffect(() => {
     client
-      .fetch("*[_type == 'projects']{ProjectName, ProjectDescription, ProjectCity,ProjectThumbnail{asset->{url}} ,images}")
+      .fetch("*[_type == 'simpleProjects']{ProjectName, ProjectDescription, ProjectCity,ProjectThumbnail{asset->{url}} }")
       .then((res) => {
         setProjectsList(res);
       });
@@ -49,6 +49,7 @@ function App() {
       </ScrollToTop>
 
       <Footer />
+      
     </div>
   );
 }

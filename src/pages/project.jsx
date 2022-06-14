@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import "./project.css";
-import Gallery from "../comp/Gallery/Gallery";
+// import Gallery from "../comp/Gallery/Gallery";
 import ProjectHeader from "../comp/ProjectHeader/ProjectHeader";
 import Filter from "../comp/Filters/Filter";
+import SimpleGallery from "../comp/SimpleGallery/SimpleGallery";
+import Form from '../comp/Form/Form'
 
 const Project = (props) => {
 
@@ -16,9 +18,13 @@ const Project = (props) => {
 
 
       <Filter FilterKeyword={FilterKeyword} SetFilterKeyword={setFilterkeyword} />
-      <Gallery FilterKeyword={FilterKeyword} ProjectName={props.ProjectName} />
+      {/* <Gallery FilterKeyword={FilterKeyword} ProjectName={props.ProjectName} /> */}
+      <SimpleGallery FilterKeyword={FilterKeyword} ProjectName={props.ProjectName} />
 
 
+      <Form />
+
+      
     </React.Fragment>
   );
 };

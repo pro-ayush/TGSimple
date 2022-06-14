@@ -25,16 +25,6 @@
     
 }
 
-
-/* Hiding ScroolBar */
-
-/* Hiding Scroolbar end  */
-
-@media (max-width : 480px) {
-    .FilterContainer {
-        grid-auto-columns: 28%;
-    }
-}
 /* Container CSs end ========================================================== */
 
 
@@ -67,7 +57,19 @@
     margin-top: 10px;
 }
 
-@media (max-width : 480px){
+
+
+@media (max-width : 991px) {
+    .FilterContainer {
+        grid-auto-columns: 22%;
+    }
+}
+
+@media (max-width : 480px) {
+    .FilterContainer {
+        grid-auto-columns: 28%;
+    }
+
     .FilterRound {
         min-width: 100px;
         margin-right: 25px;
@@ -77,5 +79,4 @@
         font-size: 1rem;
         margin-top: 10px;
     }
-
 }

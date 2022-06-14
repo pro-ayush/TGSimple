@@ -16,10 +16,10 @@ const ProjectHeader = (props) => {
         </p>
 
         <button className="viewGallery btn btn-primary">View Gallery</button>
-      </div>
+      </div> 
 
       {/*//! Slider Component   */}
-      <div className="slider">
+      <div className="slider"> 
         <div
           id="carouselExampleControls"
           className="carousel slide"
