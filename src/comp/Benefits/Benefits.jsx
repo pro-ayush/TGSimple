@@ -13,9 +13,7 @@ const Benefits = () => {
           <img
             className="mainVector"
             src={require("./mainvector.png")}
-            alt="Play"
-            data-rellax-speed="0"
-            data-rellax-xs-speed="-5"
+            alt="mainvector"
           />
         </div>
         <div className="second__content" data-rellax-speed="10">

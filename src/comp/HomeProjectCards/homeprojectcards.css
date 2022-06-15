@@ -4,7 +4,6 @@
 
 #HomeProject {
     padding: 50px;
-
     padding-top: 100px;
 
 }
@@ -50,18 +49,7 @@
     border-radius: 10px;
 }
 
-.viewAllDiv {
-    display: flex;
-    justify-content: center;
-    padding: 2rem 0;
-}
-.ViewAll {
 
-    font-size: 1.5rem;
-
-    border-radius: 100px;
-    padding: 1rem 2rem;
-}
 
 
 @media (max-width : 991px) {

@@ -1,4 +1,3 @@
-import React from 'react'
 
 // Importing Components 
 import Benefits from '../comp/Benefits/Benefits';
@@ -14,8 +13,6 @@ const Home = (props) => {
     <div>
         
         <Head />
-
-
         <HomeProjectCards ProjectsList={props.ProjectsList} />
         <Benefits />
         <FAQ />

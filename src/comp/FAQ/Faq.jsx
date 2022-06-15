@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./Faq.css";
 import { AiOutlinePlus } from "react-icons/ai";
 

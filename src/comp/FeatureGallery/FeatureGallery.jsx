@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import AwesomeLightbox from "react-awesome-lightbox";
 import client from "../../client.js";
+
 // Importing Styles
 import "react-awesome-lightbox/build/style.css";
 import "./FeatureGallery.css";
@@ -66,16 +67,6 @@ const FeatureGallery = ({ FilterKeyword, ProjectName }) => {
       AfterPhotos.map((element) => element.Image.asset.url)
     );
   }, [BeforePhotos, AfterPhotos]);
-
-  //   BeforePhotos.forEach((element) => {
-  //     setBeforeLightBoxImages([...BeforeLightBoxImages, element.Image.asset.url]);
-  //     console.log(element.Image.asset.url)
-  //   });
-
-  //   AfterPhotos.forEach((element) => {
-  //     console.log("done")
-  //     setAfterLightBoxImages([...AfterLightBoxImages, element.Image.asset.url]);
-  //   });
 
   //* Extracting Url's finished
 
@@ -257,6 +248,3 @@ const FeatureGallery = ({ FilterKeyword, ProjectName }) => {
 };
 
 export default FeatureGallery;
-
-
-// col-6 col-sm-6 col-lg-4 col-4

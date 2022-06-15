@@ -16,6 +16,8 @@ textarea {
     color: #198754;
     font-size: 5rem;
     font-family: 'yeseva one';
+
+    padding-top: 100px;
 }
 .FormHeading {
     position: relative;
@@ -56,6 +58,10 @@ textarea {
         padding-bottom: 1rem;
     }
 
+    .contactUsNow {
+        padding-top: 50px;
+    }
+
 }
 
 @media (max-width :480px) {
@@ -74,7 +80,6 @@ textarea {
     }
     .contactUsNow {
         font-size: 3rem;
-        margin-top: 50px;
     }
 
 }

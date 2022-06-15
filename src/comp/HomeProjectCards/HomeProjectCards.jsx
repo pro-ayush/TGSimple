@@ -6,7 +6,6 @@ import "./homeprojectcards.css";
 const HomeProjectCards = ({ ProjectsList }) => {
   return (
     <div id="HomeProject" className="container-fluid">
-      {/* <h1 id="HomeProjectHeading">Our Projects</h1> */}
 
       <div className="HomeProjectsCardsContainer container-fluid">
         {ProjectsList.map((item, index) => {
@@ -39,11 +38,6 @@ const HomeProjectCards = ({ ProjectsList }) => {
         })}
       </div>
 
-      {/* <div className="viewAllDiv">
-        <Link to={"/gallery"} className="ViewAll btn btn-primary">
-          VIEW All PROJECTS
-        </Link>
-      </div> */}
     </div>
   );
 };

@@ -1,4 +1,3 @@
-import React from "react";
 
 import {BsGoogle} from 'react-icons/bs'
 import "./Reviews.css";
