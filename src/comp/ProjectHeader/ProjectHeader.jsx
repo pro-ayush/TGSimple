@@ -7,7 +7,6 @@ const ProjectHeader = (props) => {
 
     <div className="ProjectHeader">
       <div className="details">
-        <h5>Triple Gems 🧑‍💻</h5>
         <h1 className="ProjectHeading">{props.ProjectName}</h1>
         <h2 className="ProjectCity">{props.ProjectCity}</h2>
 

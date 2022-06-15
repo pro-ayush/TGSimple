@@ -143,10 +143,14 @@
         height: 330px;
 
     }
+
+    .GalleryHeading {
+        font-size: 2.5rem;
+    }
 }
 
-@media (max-width : 480px) {
 
+@media (max-width : 480px) {
 
     .lightboxImage img {
         
@@ -165,6 +169,8 @@
     }
 
     .GalleryHeading {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        padding-top: 50px;
+        padding-bottom: 10px;
     }
 }

@@ -5,6 +5,8 @@
 #HomeProject {
     padding: 50px;
 
+    padding-top: 100px;
+
 }
 
 #HomeProjectHeading {
@@ -63,6 +65,7 @@
 
 
 @media (max-width : 991px) {
+    
     #HomeProjectHeading {
         font-size: 3rem;
         
@@ -75,6 +78,9 @@
 
 @media (max-width : 480px) {
 
+    #HomeProject {
+        padding: 10px;
+    }
 
     #HomeProjectHeading {
         font-size: 2.5rem;

@@ -5,8 +5,8 @@ import "./homeprojectcards.css";
 
 const HomeProjectCards = ({ ProjectsList }) => {
   return (
-    <div id="HomeProject container-fluid">
-      <h1 id="HomeProjectHeading">Our Projects</h1>
+    <div id="HomeProject" className="container-fluid">
+      {/* <h1 id="HomeProjectHeading">Our Projects</h1> */}
 
       <div className="HomeProjectsCardsContainer container-fluid">
         {ProjectsList.map((item, index) => {

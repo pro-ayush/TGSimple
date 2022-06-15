@@ -1,6 +1,6 @@
 import React from "react";
 import "./Head.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 
 function Head() {
@@ -10,14 +10,14 @@ function Head() {
       <section className="MainHead">
 
           <div className="content">
-            <h1 id="mainHeading">Remodeling can be hard.</h1>
-            <h3 id="subHeading"> We're here to change that.</h3>
-            <div className="btndiv">
+            <h1 id="mainHeading">Our Projects</h1>
+            {/* <h3 id="subHeading"> We're here to change that.</h3> */}
+            {/* <div className="btndiv">
             
               <Link to="/Form" className="mainBtn btn btn-primary">
                 Contact Us
               </Link>
-            </div>
+            </div> */}
           </div>
       </section>
 

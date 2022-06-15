@@ -1,0 +1,48 @@
+.GalleryHeading {
+  font-family: "yeseva one";
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  padding: 30px;
+
+  color: #198754;
+}
+
+.Gallery {
+  width: 100vw;
+  overflow: hidden;
+
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.GalleryImage {
+  padding-top: 20px;
+  padding-bottom: 10px;
+
+  width: 95%;
+  height: auto;
+}
+
+@media (max-width: 991px) {
+  .GalleryHeading {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .Gallery {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .GalleryImage {
+    padding: -10px;
+  }
+
+  .GalleryHeading {
+    font-size: 1.5rem;
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+}

@@ -57,9 +57,25 @@
     margin-top: 10px;
 }
 
+@media (max-width : 1280px) {
+
+    .FilterRound {
+        max-width: 100px;
+    }
+
+    .FilterRound img {
+        width: 100px;
+        height: 100px;
+    }
+} 
 
 
 @media (max-width : 991px) {
+
+    #FilterHeading {
+        font-size: 2.5rem;
+    }
+
     .FilterContainer {
         grid-auto-columns: 22%;
     }
@@ -78,13 +94,29 @@
 }
 
 @media (max-width : 480px) {
+
+    #FilterHeading {
+        font-size: 1.9rem;
+        padding-top: 10px;
+    }
+
     .FilterContainer {
         grid-auto-columns: 28%;
+
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .FilterRound {
         min-width: 100px;
         margin-right: 25px;
+    }
+    .FilterRound {
+        max-width: 95px;
+    }
+    .FilterRound img {
+        width: 95px;
+        height: 95px;
     }
 
     .FilterRound h6 {
@@ -93,8 +125,30 @@
     }
 }
 
+@media (max-width : 390px) {
+    .FilterContainer {
+        grid-auto-columns: 25%;
+    }
+    .FilterRound {
+        max-width: 90px;
+        width: 90px;
+    }
+    .FilterContainer img {
+        max-width: 90px;
+        height: 90px;
+    }
+
+}
+
 @media (max-width : 360px) {
     .FilterContainer {
         grid-auto-columns: 32%;
+    }
+    .FilterRound {
+        max-width: 90px;
+    }
+
+    .FilterContainer img {
+        max-width: 90px;
     }
 }
